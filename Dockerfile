@@ -55,6 +55,7 @@ RUN luarocks install net-url
 RUN luarocks install luacheck
 RUN luarocks install yaml
 RUN luarocks install luasocket
+RUN luarocks install lapis
 
 # Set the working directory
 WORKDIR /app
