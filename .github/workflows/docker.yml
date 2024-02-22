@@ -19,7 +19,7 @@ jobs:
         uses: docker/metadata-action@v3
         with:
           images: |
-            ghcr.io/jerson/docker-luarocks
+            ghcr.io/jerson/docker-luarocks/luarocks
       - uses: docker/setup-qemu-action@v1
       - uses: docker/setup-buildx-action@v1
       - if: github.event_name != 'pull_request'
